@@ -5,12 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form Attribute</title>
 </head>
-<body>
-    <fieldset style="width: fit-content" contentfit>
-        <legend>HTML Form</legend>
-        <form action="">
-            <input type="text" name="" id="" placeholder="Username">
-        </form>
-    </fieldset>
+<body style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-weight: bold;">
+    <center>
+        <fieldset style="width: fit-content;" contentfit>
+            <legend style="font-size: 50px;background-color: red; color: white; border-radius: 20px;">HTML Form</legend>
+            <form action="google.com" method="get">
+                <div>
+                    <input style="width: 400px; height: 40px;" type="text" name="userName" id="" placeholder="Username" required>
+                    <b><sup>*</sup></b>
+                    <input style="width: 400px; height: 40px;" type="password" name="passWord" id="" placeholder="Password" required>
+                    <b style="color: red"><sup>*</sup></b>
+                </div>
+                <br>
+                <div>
+                    <input style="outline: none; border: none; font-size: 30px; background-color: green; width: 150px; height: 35px; border-radius: 10px;" type="submit" value="Submit">
+                    <input style="outline: none; border: none; font-size: 30px; background-color: red; width: 150px; height: 35px; border-radius: 10px;" type="reset" value="Reset">
+                </div>
+                
+
+                    
+            </form>
+        </fieldset>
+    </center>
 </body>
 </html>
