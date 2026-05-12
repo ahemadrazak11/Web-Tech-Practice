@@ -1,0 +1,21 @@
+/* Style Sheet */
+
+/*
+Syntax:
+
+selector{
+    css-property: css-property-value;
+    css-property: css-property-value;
+}
+
+*/
+
+
+h1{
+    color: navy;
+    background-color: lightgrey;
+    font-size: 75px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    border-radius: 15px;
+}
