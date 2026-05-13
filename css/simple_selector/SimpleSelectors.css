@@ -1,0 +1,44 @@
+
+/* universal selector (*) */
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: lightgrey;
+    text-align: center;
+}
+
+/* element selector (tagname) */
+h1{
+    
+    font-size: 55px;
+    color: white;
+    background-color: red;
+    border-radius: 15px;
+}
+
+p{
+    font-size: 32px;
+    color: white;
+    background-color: black;
+}
+
+button{
+    outline: none;
+    border: none;
+    font-size: 30px;
+    color: white;
+}
+
+/* id selector (#)*/
+#subscribe_button{
+    background-color: red;
+    border-radius: 50px;
+    width: 200px;
+    height: 80px;
+}
+
+#follow_button{
+    background-color: royalblue;
+    border-radius: 15px;
+    width: 180px;
+    height: 80px;
+}
