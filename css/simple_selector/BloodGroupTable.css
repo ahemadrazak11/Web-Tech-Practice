@@ -1,0 +1,49 @@
+/*
+selector{
+    css-property: css-property-value;
+    css-property: css-property-value;
+
+}
+*/
+
+/* universal selector*/
+
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*id selector */
+
+#blood_group_table{
+ border: 2px solid red;
+}
+
+#blood_group_table_caption{
+    font-size: 60px;
+    font-weight: bold;
+    border-radius: 15px 15px 0px 0px;
+}
+
+#blood_group_table_head{
+    font-size: 40px;
+    border-radius: 30px;
+}
+
+#blood_group_table_caption, #blood_group_table_head{
+    color: white;
+    background-color: red;
+}
+
+#blood_group_table_body{
+    text-align: center;
+    font-size: 30px;
+}
+
+/* multiple selector */
+.ft_row, .t_row,  .ff_row, .sv_row, .nn_row{
+    background-color: lightcoral;
+}
+
+.s_row, .f_row, .sx_row, .et_row, .tn_row {
+    background-color: lightseagreen;
+}
