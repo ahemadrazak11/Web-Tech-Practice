@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Kolker+Brush&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 20px;
+}
+
+.course_heading{
+    color: greenyellow;
+    background-color: grey;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 50px;
+    margin-bottom: 5px;
+}
+
+#web_development{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#core_java{
+     font-family: "Dancing Script", cursive;
+}
+
+#advance_java{
+font-family: "Dancing Script", cursive;
+}
+
+@font-face {
+    font-family: RubikMarkerHatch-Regular;
+    src: url(../../assets/fonts/RubikMarkerHatch-Regular.ttf);
+}
+#sql{
+ font-family: RubikMarkerHatch-Regular;
+}
