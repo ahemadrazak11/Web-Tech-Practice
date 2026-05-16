@@ -1,0 +1,41 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+@font-face{
+    font-family: product sans;
+    src: url(../../assets/fonts/ProductSansRegular.ttf);
+}
+
+#google_doodle_container{
+    width: fit-content;
+}
+
+.google_doodle{
+    font-family: product sans;
+    float: left;
+    font-size: 100px;
+    font-weight: bold;
+}
+
+.royalblue_color{
+    color: royalblue;
+}
+
+.red_color{
+    color: red;
+}
+
+.orange_color{
+    color: orange;
+}
+
+.green_color{
+    color: green;
+}
+
+marquee{
+    height: 350px;
+}
