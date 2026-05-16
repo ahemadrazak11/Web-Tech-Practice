@@ -18,43 +18,103 @@
             <!--main div-->
             <main id="main_container">
                 <article>
-                    <!--personal information section-->
-                    <section>
-                        <h2 class="section_heading">Personal Information</h2>
-                    </section>
-                    <!--address section-->
-                    <section>
-                        <h2 class="section_heading">Address</h2>
-                    </section>
-                    <!--preferences-->
-                    <section>
-                        <h2 class="section_heading">Preferences</h2>
-                    </section>
-                    <!--additional information-->
-                    <section>
-                        <h2 class="section_heading">Additional Information</h2>
-                    </section>
-                    <!--account options-->
-                    <section>
-                        <h2 class="section_heading">Account Options</h2>
-                    </section>
-                    <!--buttons-->
-                    <section></section>
+                    <form action="">
+                        <!--personal information section-->
+                        <section>
+                            <h2 class="section_heading">Personal Information</h2>
+                            <hr class="heading_line">
+                        </section>
+                        <!--address section-->
+                        <section>
+                            <h2 class="section_heading">Address</h2>
+                            <hr class="heading_line">
+                        </section>
+                        <!--preferences-->
+                        <section>
+                            <h2 class="section_heading">Preferences</h2>
+                            <hr class="heading_line">
+                        </section>
+                        <!--additional information-->
+                        <section>
+                            <h2 class="section_heading">Additional Information</h2>
+                            <hr class="heading_line">
+                        </section>
+                        <!--account options-->
+                        <section>
+                            <h2 class="section_heading">Account Options</h2>
+                            <hr class="heading_line">
+                        </section>
+                        <!--buttons-->
+                        <section></section>
+                    </form>
                 </article>
             </main>
             <!--filler div-->
             <div class="filler_div"></div>
             <!-- aside div-->
             <aside id="aisde_container">
-                <div class="aisde_container_inner_div"></div>
+                <div class="aisde_container_inner_div" id="first_div">
+                    <h2 class="aside_heading" id="first_div_heading">Form Elements Included</h2>
+                    <ul>
+                        <li class="first_heading_list_item">&#9989; Text Input</li>
+                        <li class="first_heading_list_item">&#9989; Email Input</li>
+                        <li class="first_heading_list_item">&#9989; Password Input</li>
+                        <li class="first_heading_list_item">&#9989; Date Input</li>
+                        <li class="first_heading_list_item">&#9989; Radio Input</li>
+                        <li class="first_heading_list_item">&#9989; Checkboxes</li>
+                        <li class="first_heading_list_item">&#9989; Select (Dropdown)</li>
+                        <li class="first_heading_list_item">&#9989; Multiple Select (Chechbox)</li>
+                        <li class="first_heading_list_item">&#9989; Textearea</li>
+                        <li class="first_heading_list_item">&#9989; File Upload</li>
+                        <li class="first_heading_list_item">&#9989; Range Slider</li>
+                        <li class="first_heading_list_item">&#9989; URL Input</li>
+                        <li class="first_heading_list_item">&#9989; Number Input (via range)</li>
+                        <li class="first_heading_list_item">&#9989; Submit / Reset / Button</li>
+                    </ul>
+                </div>
                 <br>
-                <div class="aisde_container_inner_div"></div>
+                <div class="aisde_container_inner_div" id="second_div">
+                    <h2 class="aside_heading" id="second_div_heading">Attributes Demonstrated</h2>
+                    <ul>
+                        <li class="second_heading_list_item"><span class="second_div_list_item_marker">&#9672;</span>  action</li>
+                        <li class="second_heading_list_item"><span class="second_div_list_item_marker">&#9672;</span> method</li>
+                        <li class="second_heading_list_item"><span class="second_div_list_item_marker">&#9672;</span> enctype</li>
+                        <li class="second_heading_list_item"><span class="second_div_list_item_marker">&#9672;</span> placeholder</li>
+                        <li class="second_heading_list_item"><span class="second_div_list_item_marker">&#9672;</span> required</li>
+                        <li class="second_heading_list_item"><span class="second_div_list_item_marker">&#9672;</span> maxlength</li>
+                        <li class="second_heading_list_item"><span class="second_div_list_item_marker">&#9672;</span> min / max</li>
+                        <li class="second_heading_list_item"><span class="second_div_list_item_marker">&#9672;</span> step</li>
+                        <li class="second_heading_list_item"><span class="second_div_list_item_marker">&#9672;</span> checked</li>
+                        <li class="second_heading_list_item"><span class="second_div_list_item_marker">&#9672;</span> selected</li>
+                        <li class="second_heading_list_item"><span class="second_div_list_item_marker">&#9672;</span> accept</li>
+                    </ul>
+                </div>
                 <br>
-                <div class="aisde_container_inner_div"></div>
+                <div class="aisde_container_inner_div" id="third_div">
+                    <h2 class="aside_heading" id="third_div_heading">Form Tag Example</h2>
+                    <pre class="third_div_pre">&lt;form action="/submit" method="POST"
+enctype="multipart/form-data"&gt; 
+&lt;! -- -- All form elements here -- -- &gt;
+&lt;form&gt;
+                    </pre>
+                </div>
                 <br>
-                <div class="aisde_container_inner_div"></div>
+                <div class="aisde_container_inner_div" id="fourth_div">
+                    <h2 class="aside_heading" id="fourth_div_heading">Best Practices</h2>
+                    <ul>
+                        <li class="fourth_div_list_item"><span class="fourth_div_list_item_market">&#9830;</span> Use labels for all inputs</li>
+                        <li class="fourth_div_list_item"><span class="fourth_div_list_item_market">&#9830;</span> Add placeholder for guidance</li>
+                        <li class="fourth_div_list_item"><span class="fourth_div_list_item_market">&#9830;</span> Show required fields clearly</li>
+                        <li class="fourth_div_list_item"><span class="fourth_div_list_item_market">&#9830;</span> Group related fields</li>
+                        <li class="fourth_div_list_item"><span class="fourth_div_list_item_market">&#9830;</span> Use appropriate input types</li>
+                        <li class="fourth_div_list_item"><span class="fourth_div_list_item_market">&#9830;</span> Provide helpful error messages</li>
+                    </ul>
+                </div>
             </aside>
         </div>
+        <!--
+        <sup>*</sup> Fields marked with an asterisk (<sup>*</sup>) are required.
+        -->
     </center>
 </body>
 </html>
