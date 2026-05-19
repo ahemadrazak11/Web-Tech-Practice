@@ -24,3 +24,82 @@ body{
     background-color: greenyellow;
     border-radius: 50%;
 }
+
+/**/
+
+#grand_parent_block{
+    width: 200px;
+    height: 200px;
+    background-color: gray;
+}
+.color_block{
+    width: 70%;
+    height: 70%;
+}
+
+#parent_block{
+    background-color: greenyellow;
+}
+
+#child_block{
+    background-color: gray;
+}
+
+#grand_child_block{
+    background-color: greenyellow;
+}
+
+/* select by (space) */
+#grand_parent_block:hover #child_block{
+    background-color: black;
+}
+
+#parent_block:hover #grand_child_block{
+    background-color: black;
+}
+
+/**/
+
+.block_property{
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+#red_block{
+    background-color: red;
+}
+
+#navy_block{
+    background-color: navy;
+}
+
+#gray_block{
+    background-color: gray;
+}
+
+#orange_block{
+    background-color: orange;
+}
+
+#white_block{
+    background-color: white;
+}
+
+#green_block{
+    background-color: green;
+}
+
+/**/
+
+#red_block:hover + #navy_block {
+    background-color: white;
+}
+
+#red_block:hover ~ #gray_block {
+    background-color: green;
+}
+
+#orange_block:hover + #white_block{
+background-color: blue;
+}
