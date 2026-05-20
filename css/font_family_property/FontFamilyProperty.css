@@ -1,4 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Kolker+Brush&display=swap');
+
+@font-face {
+    font-family: RubikMarkerHatch-Regular;
+    src: url(../../assets/fonts/RubikMarkerHatch-Regular.ttf);
+}
+
+@font-face{
+    font-family: Inter;
+    src: url(../../assets/fonts/Inter-VariableFont_opsz\,wght.ttf)
+}
+
+@font-face{
+    font-family: JetBrains;
+    src: url(../../assets/fonts/JetBrainsMono-VariableFont_wght.ttf);
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -30,10 +46,14 @@ body{
 font-family: "Dancing Script", cursive;
 }
 
-@font-face {
-    font-family: RubikMarkerHatch-Regular;
-    src: url(../../assets/fonts/RubikMarkerHatch-Regular.ttf);
-}
 #sql{
  font-family: RubikMarkerHatch-Regular;
+}
+
+#mt1{
+    font-family: Inter;
+}
+
+#mt2{
+    font-family: JetBrains;
 }
