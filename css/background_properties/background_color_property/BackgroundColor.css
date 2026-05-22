@@ -10,9 +10,10 @@ body{
 
 .Div_Property{
     text-align: center;
-    height: 250px;
-    width: 250px;
+    height: 300px;
+    width: 300px;
     float: left;
+    padding-top: 116px;
 }
 
 #colorName{
@@ -23,10 +24,17 @@ body{
     background-color: rgb(0, 128, 128);
 }
 
+#rgbaColor{
+    background-color: rgba(0, 128, 128, 0.7);
+}
 #hslColor{
     background-color: hsl(90, 50%, 50%);
 }
 
 #hexColor{
+    background-color: #00ffff;
+}
+
+#hexAlphaColor{
     background-color: #00ffffa1;
 }
