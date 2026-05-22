@@ -9,8 +9,10 @@ body{
 }
 
 .Div_Property{
+    text-align: center;
     height: 250px;
     width: 250px;
+    float: left;
 }
 
 #colorName{
@@ -23,4 +25,8 @@ body{
 
 #hslColor{
     background-color: hsl(90, 50%, 50%);
+}
+
+#hexColor{
+    background-color: #00ffffa1;
 }
