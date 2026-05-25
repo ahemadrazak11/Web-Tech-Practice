@@ -8,6 +8,11 @@ body{
     padding: 20px;
 }
 
+#container{
+    width: fit-content;
+    padding-top: 200px;
+}
+
 .div_properties{
     width: 200px;
     height: 200px;
@@ -30,5 +35,5 @@ body{
 }
 
 #conic_gradient{
-    background-image: conic-gradient(red, black);
+    background-image: conic-gradient(violet, indigo, blue, green, orange, red);
 }
