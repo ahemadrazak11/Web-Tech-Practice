@@ -1,0 +1,33 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: productSans;
+    src: url('../../../assets/fonts/ProductSansRegular.ttf');
+}
+body{
+    padding: 20px;
+    font-family: productSans;
+}
+
+
+.heading_background{
+    background-clip: text;
+    color: transparent;
+    font-size: 270px;
+}
+
+
+#intagram_heading{
+    width: fit-content;
+    background-image: linear-gradient(red, green, blue);
+}
+
+#earth_heading{
+    width: fit-content;
+    background-image: url('../../../assets/images/Forest.jpg');
+    background-position: center;
+}
