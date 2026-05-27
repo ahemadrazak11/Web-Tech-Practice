@@ -23,7 +23,7 @@ body{
 
 #intagram_heading{
     width: fit-content;
-    background-image: linear-gradient(red, green, blue);
+    background-image: radial-gradient(red, green, blue);
 }
 
 #earth_heading{
