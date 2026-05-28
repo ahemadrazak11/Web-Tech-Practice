@@ -1,0 +1,50 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 30px;
+}
+
+#container{
+    width: fit-content;
+}
+.div_property{
+    width: 300px;
+    height: 300px;
+}
+
+
+
+.div1, .div2{
+    float: left;
+}
+
+#top_left_div, #bottom_right_div{
+    border-radius: 0px 200px 0px 200px;
+}
+
+
+#top_right_div, #bottom_left_div{
+    border-radius: 200px 0px 200px 0px;
+}
+
+#top_left_div{
+    background-image: linear-gradient(to left, red, green, blue);
+
+}
+
+#bottom_right_div{
+    background-image: linear-gradient(to right, red, green, blue);
+}
+
+#bottom_left_div{
+    background-image: linear-gradient(to left, red, green, blue);
+}
+
+#top_right_div{
+    background-image: linear-gradient(to right, red, green, blue);
+
+}
