@@ -1,0 +1,27 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 20px;
+}
+
+#container{
+    background-image: linear-gradient(rgb(100, 100, 231), rgb(144, 80, 255));
+
+}
+
+
+.first_row, .second_row{
+    float: left;
+}
+
+
+.div{
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    border: 2px solid black;
+}
