@@ -9,7 +9,7 @@ body{
 }
 
 #container{
-    background-image: linear-gradient(rgb(100, 100, 231), rgb(144, 80, 255));
+    background-image: linear-gradient(rgb(231, 216, 100), rgb(144, 80, 255));
 
 }
 
@@ -23,25 +23,26 @@ body{
 }
 
 #top_left{
-    border-radius: 0px 0px 180px 0px;;
+    border-radius: 0px 0px 180px 0px;
+
 }
 
 #bottom_left{
-    border-radius: 0px 0px 0px 180px;;
+    border-radius: 0px 0px 0px 180px;
 }
 
 #top_right{
-    border-radius: 0px 180px 0px 0px;;
+    border-radius: 0px 180px 0px 0px;
 }
 
 #bottom_right{
-    border-radius: 180px 0px 0px 0px;;
+    border-radius: 180px 0px 0px 0px;
 }
 h1{
     width: fit-content;
     font-size: 240px;
     text-align: center;
     color: transparent;
-    background-image: linear-gradient(to right, rgb(100, 100, 231), rgb(144, 80, 255));
+    background-image: linear-gradient(rgb(231, 216, 100), rgb(144, 80, 255));
     background-clip: text;
 }
