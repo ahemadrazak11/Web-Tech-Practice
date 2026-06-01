@@ -9,8 +9,31 @@ body{
     background-size: cover;
 }
 
+marquee{
+    height: 690px;
+}
+
+.flt_l{
+    float: left;
+}
+
+.flt_r{
+    float: right;
+}
+
+#container{
+    float: left;
+    width: fit-content;
+}
+
+#moon{
+    width: 100px;
+}
+
+#earth{
+    width: 300px;
+}
 #rocket{
-    height: 300px;
-    
+    height: 300px;    
 }
 
