@@ -5,27 +5,17 @@
 }
 
 body{
-    background-image: url('/assets/images/galaxy.jpg');
-    background-size: cover;
+    height: 5000px;
+    background-image:  url(/assets/images/earth.png), url('/assets/images/galaxy.jpg');
+    background-repeat: no-repeat, repeat;
+    background-attachment: fixed, scroll;
+    background-position: 324px;
 }
 
 marquee{
-    height: 690px;
-}
-
-.flt_l{
+    height: 310px;
     float: left;
 }
-
-.flt_r{
-    float: right;
-}
-
-#container{
-    float: left;
-    width: fit-content;
-}
-
 #moon{
     width: 100px;
 }
