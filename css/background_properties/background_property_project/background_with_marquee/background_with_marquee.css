@@ -6,24 +6,40 @@
 
 body{
     height: 5000px;
-    background-image:  url(/assets/images/earth.png), url('/assets/images/galaxy.jpg');
-    background-repeat: no-repeat, repeat;
-    background-attachment: fixed, scroll;
-    background-position: 324px;
+    background-image: url(/assets/images/sun.png),
+                      url(/assets/images/earth.png),
+                      url(/assets//images/moon.png),
+                      url(/assets/images/galaxy.jpg);
+
+    background-size: 50%,25%,12.5%,100%;
+    background-repeat: no-repeat,no-repeat,no-repeat,repeat;
+
+    background-position: -200px -200px,
+                         bottom left,
+                         20% 93.5%,
+                         center;
+
+    background-attachment: fixed,scroll,scroll,scroll;
 }
 
-marquee{
-    height: 310px;
-    float: left;
-}
-#moon{
-    width: 100px;
+#rocket_image_marquee{
+    width: 20%;
+    height: 100%;
+    float: right;
 }
 
-#earth{
-    width: 300px;
-}
-#rocket{
-    height: 300px;    
+#rocket_image{
+    width: 100%;
 }
 
+#astronaut_image{
+    width: 150px;
+}
+
+#astronaut_parent_marquee{
+    width: 80%;
+}
+
+#astronaut_child_marquee{
+    height: 5000px;
+}

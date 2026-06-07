@@ -3,21 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>background_with_marquee</title>
+    <title>SpaceWalk</title>
     <link rel="stylesheet" href="background_with_marquee.css">
 </head>
 <body>
+    <marquee id="rocket_image_marquee" behavior="" direction="up" scrollamount="15">
+        <img src="/assets/images/rocket.png" alt="RocketImage" id="rocket_image">
+    </marquee>
 
-    <div id="container">
-            <marquee behavior="" direction="right" scrollamount="13">
-                <img src="/assets/images/moon.png" alt="" id="moon">
-            </marquee>
-    </div>
-
-    <div>
-        <marquee behavior="" direction="" scrollamount="16">
-            <img src="/assets/images/satellite.png" alt="" id="rocket">
+    <marquee behavior="slide" direction="left" id="astronaut_parent_marquee" scrollamount="20">
+        <marquee behavior="slide" direction="down" id="astronaut_child_marquee" scrollamount="20">
+            <img src="/assets/images/astronaut.png" alt="AstronautImage" id="astronaut_image">
         </marquee>
-    </div>
+    </marquee>
 </body>
 </html>
