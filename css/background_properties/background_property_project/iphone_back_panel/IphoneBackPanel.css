@@ -1,0 +1,36 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 20px;
+}
+#main_container{
+    width: 300px;
+    height: 620px;
+    background-image: url(../../../../assets/images/apple.png), linear-gradient(to top,#908d88, #d0cabe);
+    background-size: 30%, 100%;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    margin: auto;
+    padding: 15px;
+    border: 2px solid #7f7a74;
+    border-radius: 55px;
+
+}
+
+#camera_container{
+    width: 160px;
+    height: 160px;
+    
+    background-color: #a5a29b;
+    border-radius: 45px;
+    background-image: url(../../../../assets/images/IphoneCameraLense.png), url(../../../../assets/images/IphoneCameraLense.png), url(../../../../assets/images/IphoneCameraLense.png), url(../../../../assets/images/sensior.png), url(../../../../assets/images/iphoneFlash.png);
+    background-repeat: no-repeat;
+    background-size: 45%, 45%, 45%, 20%, 20%;
+    background-position: 10% 7%, 10% 97%, 90% 50%, 80% 97%, 80% 7%;
+    border: 3px solid #908d88;
+    box-shadow: 1px 0px 12px 6px #4b4b4b;
+}
