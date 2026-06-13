@@ -5,7 +5,9 @@
 }
 
 body{
+    height: 695px;
     padding: 20px;
+    background-color: beige;
 }
 #main_container{
     width: 300px;
@@ -32,5 +34,5 @@ body{
     background-size: 45%, 45%, 45%, 20%, 20%, 5%;
     background-position: 10% 7%, 10% 97%, 90% 50%, 72% 99%, 78% 6%, 87% 80%;
     border: 3px solid #908d88;
-    box-shadow: 1px 0px 12px 6px #4b4b4b;
+    box-shadow: 1px 0px 20px 3px #4b4b4b;
 }
