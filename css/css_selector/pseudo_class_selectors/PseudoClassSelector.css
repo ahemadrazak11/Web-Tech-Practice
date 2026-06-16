@@ -81,3 +81,51 @@ body{
 #block_container:hover>.blocks:nth-child(3), #block_container:hover>.blocks:nth-last-child(3){
     background-color: greenyellow;
 }
+
+
+.text_fields{
+    width: 400px;
+    height: 40px;
+    font-size: 30px;
+    margin: 10px;
+    padding-left: 10px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    background-color: lightgray;
+}
+
+.text_fields:required{
+    background-color: transparent;
+    border: 2px solid red;
+
+}
+
+.text_fields:read-only{
+    background-color: black;
+    color: white;
+}
+
+
+.btn{
+    width: 200px;
+    height: 50px;
+    padding: 5px;
+    margin: 10px;
+    font-size: 30px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    background-color: navy;
+    color: white;
+}
+
+.btn:disabled{
+    background-color: lightgray;
+    color: gray;
+}
+
+
+.text_fields:focus{
+    border-bottom: 2px solid navy;
+}
