@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSSValidationForm</title>
+    <link rel="stylesheet" href="CSSValidationForm.css">
+</head>
+<body>
+    <h1><span class="red_color">CSS</span> <span class="navy_color">Validation</span> <span class="green_color">Form</span></h1>
+
+    <form action="" class="main_container">
+
+        <div class="form_field_containers">
+            <label class="input_labels">Username</label>
+            <br>
+            <input type="text" name="" id="" class="input_fields" minlength="8">
+        </div>
+
+        <div class="form_field_containers">
+            <label class="input_labels">Password</label>
+            <br>
+            <input type="password" name="" id="" class="input_fields" minlength="5">
+        </div>
+
+        <div class="form_field_containers">
+            <label class="input_labels">Age</label>
+            <br>
+            <input type="number" name="" id="" class="input_fields" min="18">
+        </div>
+
+        <div class="form_field_containers">
+            <label class="input_labels">Gender</label>
+            <br>
+            <input type="radio" name="gender" id="male_label" value="male"><label for="male_label" class="radio_label">Male</label>
+            <input type="radio" name="gender" id="female_label" value="female"><label for="female_label" class="radio_label">Female</label>
+            <input type="radio" name="gender" id="other_label" value="other"><label for="other_label" class="radio_label">Other</label>
+        </div>
+
+        <div>
+            <input type="checkbox" name="" id="tnc" class="checkbox_fields"><label for="tnc">Terms and Conditions</label><br>
+            <input type="checkbox" name="" id="dec" class="checkbox_fields"><label for="dec">Declaration</label>
+        </div>
+
+        <input type="submit" value="Validate" class="submit_btn">
+    </form>
+</body>
+</html>

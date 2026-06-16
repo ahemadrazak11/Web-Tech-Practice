@@ -1,0 +1,115 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: ProductSans;
+}
+
+@font-face{
+    font-family: ProductSans;
+    src: url(../../../assets/fonts/ProductSansRegular.ttf);
+}
+
+body{
+    padding: 20px;;
+}
+
+h1{
+    font-size: 50px;
+    text-align: center;
+}
+
+.red_color{
+    color: red;
+}
+
+.navy_color{
+    color: navy;
+}
+
+.green_color{
+    color: green;
+}
+
+.main_container{
+    width: 50%;
+    border-radius: 20px;
+    margin: 0px auto;
+}
+.form_field_containers{
+     padding: 10px;
+     padding-left: 15px;
+     margin: 5px;
+     border-radius: 20px;
+    background-color: lightgray;
+}
+
+.input_labels{
+    font-size: 18px;
+    color: rgb(66, 66, 66);
+}
+
+.radio_label{
+    margin-right: 35px;
+    font-size: 20px;
+    color: black;
+}
+
+.input_fields{
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 20px;
+}
+
+.checkbox_fields{
+    margin: 10px;
+}
+
+.submit_btn{
+    background-color: navy;
+    border-radius: 15px;
+    color: white;
+    width: 200px;
+    height: 40px;
+    font-size: 30px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.submit_btn:active{
+    background-color: lightgray;
+    color: navy;
+}
+
+/*
+Syntax:
+element_selector[attribute-name="attribute-value"]{
+    css-property: css-property-value;
+    css-property: css-property-value;
+}
+
+*/
+
+
+input[type="radio"], input[type="checkbox"]{
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+    outline: none;
+    borde: none;
+}
+
+.input_fields:valid{
+    color: green;
+}
+
+.input_fields:invalid{
+    color: red;
+}
+
+input[type="radio"]:checked, input[type="checkbox"]:checked{
+    transform: scale(1.250);
+}
