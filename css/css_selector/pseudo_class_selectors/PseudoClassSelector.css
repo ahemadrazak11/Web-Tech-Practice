@@ -1,0 +1,83 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 20px;
+}
+
+.hyper_link{
+    font-size: 40px;
+    margin-right: 15px;
+    font-weight: bold;
+}
+
+.hyper_link:link{
+    color: orange;
+}
+
+.hyper_link:visited{
+    color: red;
+}
+
+.hyper_link:active{
+    color: black;
+}
+
+#btn{
+    border: none;
+    outline: none;
+    background-color: lightgray;
+    color: navy;
+    width: 170px;
+    height: 40px;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 15px;
+}
+
+#btn:hover{
+    background-color: navy;
+    color: lightgray;
+}
+
+#btn:active{
+    background-color: green;
+    color: white;
+}
+
+#block_container{
+    width: 100%;
+    height: 120px;
+    padding: 10px;;
+    background-color: lightgray;
+    border-radius: 15px;
+}
+
+.blocks{
+    width: 100px;
+    height: 100px;
+    margin-right: 15px;
+    background-color: navy;
+    border-radius: 15px;
+    float: left;
+}
+
+/* this is a static way to select the first and last child of the parent element.
+#block_container:hover>.first_last_child{
+    background-color: gray;
+} 
+*/
+
+/* This is a dynamic way to select the first and last child of the parent element. */
+#block_container:hover>.blocks:first-child, #block_container:hover>.blocks:last-child{
+    background-color: gray;
+}
+
+
+/* This is the dynamic way to select children of the parent element based on the number. */
+#block_container:hover>.blocks:nth-child(3), #block_container:hover>.blocks:nth-last-child(3){
+    background-color: greenyellow;
+}
