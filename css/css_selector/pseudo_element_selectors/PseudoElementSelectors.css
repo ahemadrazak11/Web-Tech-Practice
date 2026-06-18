@@ -6,4 +6,177 @@
 
 body{
     padding: 20px;
+     height: 10500px;
+}
+
+.input_boxes{
+    width: 300px;
+    height: 40px;
+    background-color: lightgray;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+    font-size: 25px;
+}
+
+.input_boxes::placeholder{
+    color: navy;
+}
+
+.headings{
+    font-size: 50px;
+    color: gray;
+    cursor: pointer;
+}
+
+#core_java:hover::before{
+content: 'Core';
+color: navy;
+}
+
+#web_development:hover::after{
+    content: 'Development';
+    color: navy;
+}
+
+
+.sub_headings{
+    color: gray;
+    float: left;
+    font-size: 70px;
+}
+.sub_headings::first-letter{
+color: navy;
+}
+
+#paragraph{
+    margin-top: 90px;
+    color: gray;
+    font-size: 30px;
+
+}
+
+#paragraph::first-line{
+    color: navy;
+}
+
+#paragraph:hover::first-line{
+    font-size: 32px;
+}
+
+#paragraph::selection{
+    color: greenyellow;
+    background-color: gray;
+}
+
+.list_headings{
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.course_list{
+    margin-left: 25px;
+    font-size: 25px;
+}
+
+.course_list_items::marker{
+    color: red;
+    font-weight: bold;
+}
+
+
+#brightness{
+    margin-top: 30px;
+    width: 30%;
+    height: 40px;
+    -webkit-appearance: none;
+}
+
+#brightness::-webkit-slider-runnable-track{
+    height: 40px;
+    background-color: lightgray;
+    -webkit-appearance: none;
+    border-radius: 50px;
+}
+
+#brightness:active::-webkit-slider-runnable-track{
+    background-color: gray;
+}
+
+#brightness::-webkit-slider-thumb{
+    height: 40px;
+    width: 40px;
+    -webkit-appearance: none;
+    background-image: conic-gradient(blue, green, yellow, red);
+    border-radius: 50px;
+}
+
+#file_picker{
+    margin-top: 5px;
+    margin-left: 10px;
+    color: navy;
+    font-size: 30px;
+    border: 1px solid navy;
+    border-radius: 15px;
+    width: 30%;
+}
+
+#file_picker::-webkit-file-upload-button{
+    outline: none;
+    border: none;
+    background-color: navy;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+   /* display: none; it used to hide the button and show custome text on file upload.*/ 
+}
+
+
+/*  The following CSS code used to write custome text on file upload button.
+#file_picker::before{
+    content: 'Choose PDF';
+    outline: none;
+    border: none;
+    background-color: navy;
+    color: white;
+    padding: 5px;
+    border-radius: 20px;
+    padding: 10px;
+    margin-right: 5px;
+}
+#file_picker:active::before{
+background-color: gray;
+    color: navy;
+} */
+
+#file_picker:active::-webkit-file-upload-button{
+    background-color: gray;
+    color: navy;
+}
+
+
+/* Custome Scroll Bar Design*/
+
+body::-webkit-scrollbar{
+    width: 40px;
+    background-image: url(../../../assets/images/galaxy.jpg);
+    background-repeat: no-repeat;
+   
+
+}
+
+body::-webkit-scrollbar-thumb{
+    background-image: url(../../../assets/images/earth.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
+body::-webkit-scrollbar-button{
+    background-image: url(../../../assets/images/sun.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 40px;
 }
