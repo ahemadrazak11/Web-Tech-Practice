@@ -1,0 +1,61 @@
+*{
+    padding: px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+@font-face{
+    font-family: ProductSans;
+    src: url(../../assets/fonts/ProductSansRegular.ttf);
+}
+body{
+    padding: 20px;
+    font-family: ProductSans;
+}
+
+#heading{
+    font-size: 50px;
+    text-align: center;
+}
+
+#container{
+    width: 250px;
+    height: 250px;
+    background-color: greenyellow;
+    border: 10px solid gray;
+    margin: 30px auto;
+
+    /*specific property*/
+    /*
+    transition-property: width, height, background-color, border;
+    transition-duration: 1000ms, 1000ms, 3000ms, 5000ms;
+    */
+
+    /*shorthand property*/
+    transition: all 5000ms;
+
+}
+
+#container:hover{
+    width: 500px;
+    height: 500px;
+    background-color: navy;
+    border: 20px solid red;
+    border-radius: 50%;   
+}
+
+#triangle{
+    width: 200px;
+    height: 200px;
+    background-color: greenyellow;
+    transition: all 20000ms;
+}
+
+#triangle:hover{
+    width: 0px;
+    height: 0px;
+    border-top: 100px solid transparent;
+    border-bottom: 100px solid transparent;
+    border-left: 100px solid gray;
+    background-color: transparent;
+}
+
