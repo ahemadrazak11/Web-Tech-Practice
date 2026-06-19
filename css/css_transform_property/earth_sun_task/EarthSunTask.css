@@ -1,0 +1,34 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 20px;
+}
+
+h1{
+    font-size: 40px;
+    color: navy;
+    font-weight: bolder;
+    text-align: center;
+}
+
+#container{
+    width: 580px;
+    height: 580px;
+    border-radius: 50px;
+    background-image: url(../../../assets/images/moon.png), url(../../../assets/images/sun.png), url(../../../assets/images/galaxy.jpg);
+    background-size: 20%, 90%, cover;
+    background-repeat: no-repeat;
+    background-position: 2% 2%, center, center;
+    margin: 10px auto;
+    transition: all 2000ms;
+}
+
+#container:hover{
+    background-image: url(../../../assets/images/moon.png), url(../../../assets/images/earth.png), url(../../../assets/images/galaxy.jpg);
+    background-size: 20%, 80%, cover;
+    background-position: 95% 95%, center, center;
+}
