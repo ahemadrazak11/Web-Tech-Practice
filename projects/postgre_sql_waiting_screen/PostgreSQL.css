@@ -1,0 +1,89 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 20px;
+    background-color: lightgray;
+}
+
+#container{
+    width: 850px;
+    height: 650px;
+    background-color: white;
+    margin: 0px auto;
+    padding: 75px 100px;
+}
+
+.first_row_div, .second_row_div, .third_row_div, .fourth_row_div{
+    width: 0px;
+    height: 0px;
+    float: left;
+}
+
+.left_arrow{
+    border-right: 160px solid #5e439b;
+    border-top: 100px solid transparent;
+    border-bottom: 100px solid transparent;
+}
+
+.right_arrow{
+    border-left: 160px solid #7464ab;
+    border-top: 100px solid transparent;
+    border-bottom: 100px solid transparent;
+}
+
+.margine_top{
+    margin-top: -99px;
+}
+
+.margine_left{
+    margin-left: 160px;
+}
+
+.third_row_first_div{
+    margin-left: -488px;
+    margin-top: 70px;
+}
+
+.third_row_small_div{
+    
+    border-left: 60px solid #4e5ea3;
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+    border-right: 0px;
+}
+
+.third_row_second_div{
+    margin-left: -320px;
+    margin-top: 1px;
+}
+
+.third_row_third_div{
+    margin-left: -160px;
+    margin-top: 1px;
+}
+
+.third_row_fourth_div{
+    margin-top: 1px;
+}
+
+.third_row_fifth_div{
+    margin-top: -161px;
+    margin-left: 640px;
+}
+
+#fourth_row{
+    margin-left: 320px;
+}
+.fourth_row_first_div, .fourth_row_second_div{
+    margin-top: -100px;
+}
+
+img{
+    width: 300px;
+    margin-left: 184px;
+    margin-top: -117px;
+}
