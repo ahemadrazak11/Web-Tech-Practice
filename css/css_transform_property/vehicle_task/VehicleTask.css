@@ -1,0 +1,48 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 20px;
+}
+
+#container{
+border-bottom: 50px solid black;
+}
+
+.vehicle_image{
+    width: 200px;
+    margin-left: 0px;
+    transition: margin-left 5s;
+}
+
+#container:hover .vehicle_image{
+    margin-left: 85%;
+}
+
+#cycle_image{
+ transition-timing-function: linear;
+}
+
+
+#bike_image{
+    transition-delay: 1s;
+    transition-timing-function: ease-in;
+}
+
+#car_image{
+    transition-delay: 3.5s;
+    transition-timing-function: ease-out;
+}
+
+#truck_image{
+    transition-delay: 4.5s;
+    transition-timing-function: ease-in-out;
+}
+
+#jcb_image{
+    transition-delay: 6s;
+    transition-timing-function: ease;
+}
