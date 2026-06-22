@@ -1,0 +1,40 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 20px;
+}
+
+#blocks_container{
+    width: fit-content;
+    margin: 210px auto;
+}
+
+.blocks{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    background-color: rgb(222, 10, 234);
+    float: left;
+    margin-left: 5px;
+    border-radius: 20px;
+    padding-top: 85px;
+    cursor: pointer;
+    transition: all 5s;
+    
+}
+
+#X_block:hover{
+    transform: rotateX(360deg);
+}
+
+#Y_block:hover{
+    transform: rotateY(360deg);
+}
+
+#Z_block:hover{
+    transform: rotateZ(360deg);
+}
