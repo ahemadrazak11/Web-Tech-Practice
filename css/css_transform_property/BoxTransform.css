@@ -10,7 +10,14 @@ body{
 
 #blocks_container{
     width: fit-content;
-    margin: 210px auto;
+    margin: 10px auto;
+    display: grid;
+    gap: 10px;
+}
+
+.rows{
+display: flex;
+gap: 10px;
 }
 
 .blocks{
@@ -18,7 +25,6 @@ body{
     height: 200px;
     text-align: center;
     background-color: rgb(222, 10, 234);
-    float: left;
     margin-left: 5px;
     border-radius: 20px;
     padding-top: 85px;
@@ -27,14 +33,45 @@ body{
     
 }
 
-#X_block:hover{
+/* rotate() function*/
+#rotateX_block:hover{
     transform: rotateX(360deg);
 }
 
-#Y_block:hover{
+#rotateY_block:hover{
     transform: rotateY(360deg);
 }
 
-#Z_block:hover{
+#rotateZ_block:hover{
     transform: rotateZ(360deg);
+}
+
+
+/*skew() function*/
+
+#skewX_block:hover{
+    transform: skewX(360deg);
+}
+
+#skewY_block:hover{
+    transform: skewY(360deg);
+}
+
+#skewZ_block:hover{
+    transform: skew(180deg, 180deg);
+}
+
+
+/* scale() function*/
+
+#scaleX_block:hover{
+    transform: scaleX(1.5);
+}
+
+#scaleY_block:hover{
+    transform: scaleY(2);
+}
+
+#scaleZ_block:hover{
+    transform: scale(2, 2);
 }
