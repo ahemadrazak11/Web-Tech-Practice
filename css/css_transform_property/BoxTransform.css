@@ -10,7 +10,7 @@ body{
 
 #blocks_container{
     width: fit-content;
-    margin: 10px auto;
+    margin: 5px auto;
     display: grid;
     gap: 10px;
 }
@@ -21,13 +21,13 @@ gap: 10px;
 }
 
 .blocks{
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     text-align: center;
     background-color: rgb(222, 10, 234);
     margin-left: 5px;
     border-radius: 20px;
-    padding-top: 85px;
+    padding-top: 50px;
     cursor: pointer;
     transition: all 5s;
     
@@ -74,4 +74,11 @@ gap: 10px;
 
 #scaleZ_block:hover{
     transform: scale(2, 2);
+}
+
+
+/* translate() function*/
+
+#translateX_block:hover{
+    transform: translate(20px);
 }
