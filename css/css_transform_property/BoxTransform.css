@@ -80,5 +80,13 @@ gap: 10px;
 /* translate() function*/
 
 #translateX_block:hover{
-    transform: translate(20px);
+    transform: translateX(-30px);
+}
+
+#translateY_block:hover{
+    transform: translateY(30px);
+}
+
+#translateZ_block:hover{
+    transform: translate(30px, 30px);
 }
