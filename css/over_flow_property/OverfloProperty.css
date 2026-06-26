@@ -16,11 +16,24 @@ h1{
 
 #container{
     width: 20%;
-    height: 600px;
+    height: 400px;
     background-color: lightgray;
+    overflow: scroll;
+}
+
+.list{
+    margin-top: 10px;
+    margin-left: 45px;
 }
 
 .list_heading{
-    font-size: 20px;
+    color: red;
+    font-size: 30px;
     font-weight: bold;
+}
+
+.sub_list{
+    color: black;
+    font-size: 20px;
+    font-weight: lighter;
 }
