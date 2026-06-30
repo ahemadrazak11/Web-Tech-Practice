@@ -25,17 +25,39 @@ body{
     position: absolute;
     top: 120%;
     left: 150px;
+    z-index: -1;
 }
 #lotus_bud{
     width: 113px;
     height: 100px;
     border-radius: 0px 0px 50px 50px;
-    background-image: linear-gradient(lightgreen, green);
-    box-shadow: 0px 0px 10px lightpink;
+    background-image: linear-gradient(green, darkgreen);
+    box-shadow: inset 0px 11px 20px 0px #a5a5a5;
     position: absolute;
     top: 100%;
     left: 119px;
-    z-index: 10;
+    z-index: 11;
+}
+
+.leaf{
+    width: 580px;
+    height: 750px;
+    border-radius: 60%;
+    position: absolute;
+    transform: rotateX(291deg);
+    z-index: -1;
+}
+
+#left_leaf{
+    top: 50px;
+    left: -378px;
+    background-image: linear-gradient(279deg, #4ac34a, #065e06);
+}
+
+#right_leaf{
+    top: 50px;
+    left: 152px;
+    background-image: linear-gradient(63deg, #4ac34a, #065e06);
 }
 
 .lotus_petal{
@@ -43,10 +65,78 @@ body{
     height: 100%;
     border-radius: 100% 0px;
     background-image: linear-gradient(pink, rgb(167, 8, 167));
+    box-shadow: inset 0px -1px 20px lightpink;
     transform: rotate(-45deg);
     position: absolute;
+    transition: transform 5s ease-in-out;
 }
 
+#center_petal{
+    z-index: 9;
+}
 #first_left_petal{
+    z-index: 8;
+}
 
+#first_right_petal{
+    z-index: 7;
+}
+
+
+#second_left_petal{
+    z-index: 6;
+}
+
+#second_right_petal{
+    z-index: 5;
+}
+
+#third_left_petal{
+    z-index: 4;
+}
+
+#third_right_petal{
+    z-index: 3;
+}
+
+#fourth_left_petal{
+    z-index: 2;
+}
+
+#fourth_right_petal{
+    z-index: 1;
+}
+
+#lotus_bud:hover+#first_left_petal{
+    transform: translate(-65px, -10px) rotate(295deg);
+}
+
+#lotus_bud:hover~#first_right_petal{
+    transform: translate(55px) rotate(-25deg);
+}
+
+
+#lotus_bud:hover~#second_left_petal{
+    transform: translate(-120px, 0px) rotate(278deg);
+}
+
+#lotus_bud:hover~#second_right_petal{
+    transform: translate(127px, -7px) rotate(350deg); 
+}
+
+#lotus_bud:hover~#third_left_petal{
+    transform: translate(-161px, 30px) rotate(260deg);
+}
+
+#lotus_bud:hover~#third_right_petal{
+    transform: translate(157px, 32px) rotate(11deg);   
+}
+
+
+#lotus_bud:hover~#fourth_left_petal{
+    transform: translate(-193px, 64px) rotate(244deg);
+}
+
+#lotus_bud:hover~#fourth_right_petal{
+    transform: translate(189px, 61px) rotate(26deg)  
 }
