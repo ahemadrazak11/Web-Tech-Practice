@@ -1,0 +1,53 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+#instagram_container{
+    width: 695px;
+    height: 695px;
+    border-radius: 20%;
+    position: relative;
+    background-color: black;
+    left: 395px;
+    cursor: pointer;
+    
+}
+
+#instagram_container:hover{
+    background-color: none;
+    background-image: url('../../assets/images/Instagram.jpg');
+    background-size: 100%;
+}
+
+#white_border_contaienr{
+    width: 75%;
+    height: 75%;
+    border: 40px solid white;
+    border-radius: 25%;
+    position: relative;
+    top: 76px;
+    left: 87px;
+}
+
+#circulra_border_white_container{
+    width: 65%;
+    height: 65%;
+    border: 40px solid white;
+    border-radius: 50%;
+    position: absolute;
+    top: 72px;
+    left: 72px;
+
+}
+
+#white_circle{
+    width: 12%;
+    height: 12%;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 40px;
+    right: 40px;
+}
