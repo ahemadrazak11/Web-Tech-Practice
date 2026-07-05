@@ -1,0 +1,50 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 695px;
+    background-image: linear-gradient(rgb(1, 1, 48), rgb(37, 37, 204));
+}
+
+#Sun{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 40%;
+    top: 0%;
+    background-image: url(../../assets/images/NightMoon.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    z-index: -1;
+    animation-name: sun;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+}
+
+@keyframes sun {
+    
+    from{
+        top: 0%;
+    }
+    to{
+        top: 50%;
+    }
+}
+
+#container{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: 1px;
+    background-image: url(../../assets/images/NightMountain.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: bottom;
+
+}
