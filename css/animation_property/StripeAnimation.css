@@ -1,0 +1,86 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    
+    background-color: #0a0a0a;
+}
+
+.container{
+    padding: 10px 0px;
+    margin-bottom: 100px;
+    color: yellow;
+    font-weight: bold;
+    font-size: 30px;
+    border: 2px solid yellow;
+    border-left: 0px;
+    border-right: 0px;
+    position: relative;
+    overflow: hidden;
+    background-color: black;
+}
+
+
+#Meta{
+        transform: rotate(337deg) translate(-143px, 165px);
+
+}
+
+#Meta p{
+    transform: translateX(100%);
+    animation-name: right;
+    animation-duration: 8s;
+    animation-iteration-count: 3;
+    animation-timing-function: linear;
+}
+
+
+#Amazon{
+    transform: rotate(10deg);
+}
+
+
+#Amazon p{
+    transform: translateX(100%);
+    animation-name: right;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+
+#Google{
+    transform: rotate(10deg);
+    z-index: -1;
+}
+
+#Google p{
+    transform: translateX(-40%);
+    animation-name: left;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+}
+
+@keyframes right{
+    from{
+        transform: translateX(100%);
+    }
+    to{
+        transform: translateX(-40%); 
+    }
+}
+
+
+@keyframes left{
+    from{
+        transform: translateX(-40%);
+    }
+    to{
+        transform: translateX(100%); 
+    }
+}
