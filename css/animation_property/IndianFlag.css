@@ -1,0 +1,53 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 20px;
+}
+
+#container{
+    width: 100%;
+    height: 450px;
+    margin-top: 103px;
+    cursor: pointer;
+}
+
+.flag_blocks{
+    width: 100%;
+    height: 150px;
+}
+
+#orange{
+    background-color: orange;
+}
+
+#white{
+    background-color: white;
+}
+
+#white img{
+    height: 100%;
+    position: relative;
+    left: 685px;
+}
+
+#container:hover img{
+    animation: flagANimation 3s linear infinite;
+}
+
+#green{
+    background-color: green;
+}
+
+@keyframes flagANimation{
+
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
