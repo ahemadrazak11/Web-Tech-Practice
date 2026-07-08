@@ -1,0 +1,85 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #0a0a0a;
+}
+
+#ball_one{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #ff0000;
+    box-shadow: 0px 0px 10px #ff0000a0,
+                0px 0px 20px #ff0000a1,
+                0px 0px 30px #ff0000a2,
+                0px 0px 40px #ff0000a3,
+                0px 0px 50px #ff0000a4;
+    position: absolute;
+    top: 35%;
+    left: 45%;
+    animation: Bounce 2s ease-in-out infinite alternate none;
+}
+
+#ball_two{
+
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #15ff00;
+    box-shadow: 0px 0px 10px #15ff00a0,
+                0px 0px 20px #15ff00a1,
+                0px 0px 30px #15ff00a2,
+                0px 0px 40px #15ff00a3,
+                0px 0px 50px #15ff00a4;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    animation: Bounce 3s ease-in-out infinite alternate none;
+
+}
+
+
+#ball_three{
+    
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #ffff00;
+    box-shadow: 0px 0px 10px #ffff00a0,
+                0px 0px 20px #ffff00a1,
+                0px 0px 30px #ffff00a2,
+                0px 0px 40px #ffff00a3,
+                0px 0px 50px #ffff00a4;
+    position: absolute;
+    top: 20%;
+    left: 80%;
+    animation: Bounce 4s ease-in-out infinite alternate none;
+}
+
+#ball_four{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #00e5ff;
+    box-shadow: 0px 0px 10px #00e5ffa0,
+                0px 0px 20px #00e5ffa1,
+                0px 0px 30px #00e5ffa2,
+                0px 0px 40px #00e5ffa3,
+                0px 0px 50px #00e5ffa4;
+    position: absolute;
+    top: 10%;
+    left: 60%;
+    animation: Bounce 5s ease-in-out infinite alternate none;
+}
+@keyframes Bounce{
+    0%{
+           transform: translateY(0px);
+    }
+    100%{
+        transform: translateY(200px) scale(2);
+    }
+}
