@@ -1,0 +1,47 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 20px;
+}
+
+#container{
+    width: 800px;
+    height: 500px;
+    position: absolute;
+    top: 100px;
+    left: 360px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.image_container{
+    width: 100%;
+    height: 100%;
+    background-size: 100% 100%;
+    animation: backgroundSilder 15s ease-in-out infinite alternate none;
+}
+
+@keyframes backgroundSilder{
+    0%{
+        background-image: url(../../assets/images/Forest.jpg);
+    }
+    20%{
+        background-image: url(../../assets/images/Mountainfuji.jpg);
+    }
+    40%{
+        background-image: url(../../assets/images/Ocean.jpg);
+    }
+    60%{
+        background-image: url(../../assets/images/Pyramid.jpg);
+    }
+    80%{
+        background-image: url(../../assets/images/RedFort.jpg);
+    }
+    100%{
+        background-image: url(../../assets/images/Victoriya.jpg);
+    }
+}
