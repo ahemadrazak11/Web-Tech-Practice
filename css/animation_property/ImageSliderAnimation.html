@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premium Image Slider</title>
+
+    <link rel="stylesheet" href="ImageSliderAnimation.css">
+</head>
+<body>
+
+    <section id="main">
+
+        <div class="back_container" id="one"></div>
+        <div class="back_container" id="two"></div>
+
+        <div id="slider">
+
+            <div class="slide active">
+                <img src="../../assets/images/RedFort.jpg" alt="">
+            </div>
+
+            <div class="slide">
+                <img src="../../assets/images/Mountainfuji.jpg" alt="">
+            </div>
+
+            <div class="slide">
+                <img src="../../assets/images/Tajmahal.jpg" alt="">
+            </div>
+
+            <div class="slide">
+                <img src="../../assets/images/Forest.jpg" alt="">
+            </div>
+
+            <div class="slide">
+                <img src="../../assets/images/Volcano.jpg" alt="">
+            </div>
+
+            <div class="slide">
+                <img src="../../assets/images/Ocean.jpg" alt="">
+            </div>
+
+        </div>
+
+    </section>
+
+    <script>
+
+        const slides = document.querySelectorAll(".slide");
+
+        let current = 0;
+
+        function showSlide(index){
+
+            slides.forEach(slide=>{
+                slide.classList.remove("active","exit");
+            });
+
+            slides[current].classList.add("exit");
+
+            current = index;
+
+            slides[current].classList.add("active");
+
+        }
+
+        setInterval(()=>{
+
+            let next = current + 1;
+
+            if(next >= slides.length){
+                next = 0;
+            }
+
+            showSlide(next);
+
+        },4000);
+
+    </script>
+
+</body>
+</html>

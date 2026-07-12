@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #0f172a;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#main{
+    width: 700px;
+    height: 450px;
+    position: relative;
+}
+
+/*==========================
+    Background Cards
+==========================*/
+
+.back_container{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 18px;
+    background: #3b3b3b;
+    border: 2px solid #5b5b5b;
+    transition: .5s;
+}
+
+#one{
+    transform: rotate(-6deg) scale(.96);
+    opacity: .45;
+}
+
+#two{
+    transform: rotate(5deg) scale(.98);
+    opacity: .7;
+}
+
+/*==========================
+        Slider
+==========================*/
+
+#slider{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 18px;
+    overflow: hidden;
+
+    box-shadow:
+    0 25px 40px rgba(0,0,0,.25),
+    0 40px 80px rgba(0,0,0,.45);
+}
+
+/*==========================
+        Slides
+==========================*/
+
+.slide{
+
+    position: absolute;
+
+    inset: 0;
+
+    opacity: 0;
+
+    transform:
+        scale(.9)
+        translateX(-80px)
+        rotate(-5deg);
+
+    transition:
+        opacity .9s ease,
+        transform .9s cubic-bezier(.22,.61,.36,1);
+
+}
+
+.slide img{
+
+    width:100%;
+    height:100%;
+    object-fit:cover;
+
+}
+
+/*==========================
+    Active Slide
+==========================*/
+
+.slide.active{
+
+    opacity:1;
+
+    transform:
+        scale(1)
+        translateX(0)
+        rotate(0deg);
+
+    z-index:2;
+
+}
+
+/*==========================
+    Previous Slide
+==========================*/
+
+.slide.exit{
+
+    opacity:0;
+
+    transform:
+        scale(.82)
+        translateX(220px)
+        rotate(20deg);
+
+    z-index:1;
+
+}
+
+/*==========================
+    Hover Effect
+==========================*/
+
+#slider:hover{
+
+    transform:scale(1.02);
+
+    transition:.4s;
+
+}
+
+/*==========================
+        Responsive
+==========================*/
+
+@media(max-width:768px){
+
+    #main{
+
+        width:95%;
+        height:260px;
+
+    }
+
+}
