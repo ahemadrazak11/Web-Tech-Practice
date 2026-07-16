@@ -41,14 +41,14 @@ body{
 
 
 #container:hover #shoes_image{
-    transform: translateX(-250px) rotate(-90deg) scale(2.5);
+    transform: translateX(-250px) rotate(-90deg) scale(2.7);
 }
 
 #info_container{
     color: white;
     position: relative;
-    top: 20%;
-    left: -100%;
+    top: 100%;
+    left: 40%;
     transition: all 1s;
 }
 
@@ -63,12 +63,12 @@ body{
 }
 
 #description{
-    width: 70%;
+    width: 50%;
     text-align: justify;
     margin-top: 1%;
 }
 
 
 #container:hover #info_container{
-    left: 30%;
+    top: 20%;
 }
