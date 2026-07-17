@@ -7,6 +7,12 @@
 body{
     background-color: #0a0a0a;
     overflow: hidden;
+    font-family: ProductSans;
+}
+
+@font-face{
+    font-family: ProductSans;
+    src: url(../../../assets/fonts/ProductSansRegular.ttf);
 }
 #container{
     width: 350px;
@@ -41,14 +47,14 @@ body{
 
 
 #container:hover #shoes_image{
-    transform: translateX(-250px) rotate(-90deg) scale(2.7);
+    transform: translate(-290px, -30px) rotate(-90deg) scale(2.7);
 }
 
 #info_container{
     color: white;
     position: relative;
     top: 100%;
-    left: 40%;
+    left: 30%;
     transition: all 1s;
 }
 
@@ -63,12 +69,34 @@ body{
 }
 
 #description{
-    width: 50%;
+    width: 63%;
     text-align: justify;
     margin-top: 1%;
 }
 
 
 #container:hover #info_container{
-    top: 20%;
+    top: 12%;
+}
+
+#btn{
+    width: 200px;
+    height: 40px;
+    margin-top: 10px;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    background-color: red;
+    border-radius: 10px;
+}
+
+#btn:hover{
+    border: 1px solid red;
+    color: red;
+    background-color: transparent;
+}
+
+#btn:active{
+    color: white;
+    background-color: red;
 }

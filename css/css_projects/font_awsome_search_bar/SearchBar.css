@@ -1,0 +1,63 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: ProductSans;
+    src: url(../../../assets/fonts/ProductSansRegular.ttf);
+}
+
+body{
+    font-family: ProductSans;
+}
+
+#container{
+    width: 750px;
+    position: absolute;
+    top: 300px;
+    left: 400px;
+}
+
+#search_icon, #input_field, #brand_icon{
+    position: absolute;
+
+}
+
+#search_icon{
+    font-size: 25px;
+    color: #183153;
+    top: 16px;
+    left: 15px;
+    z-index: 3;
+}
+#search_box{
+    font-size: 20px;
+    color: #616d8a;
+    width: 750px;
+    height: 60px;
+    border: 2px solid #183153;
+    border-radius: 50px;
+    padding-left: 55px;
+    padding-right: 190px;
+    box-shadow: inset 0px 4px 0px #f0f1f3;
+}
+
+#search_box::placeholder{
+    color: #616d8a;
+}
+
+#search_box:focus{
+    outline: 3px solid #74c0fc;
+    outline-offset: 2px;
+    box-shadow: none;
+}
+
+#brand_icon{
+    color: #616d8a;
+    display: flex;
+    gap: 5px;
+    top: 21px;
+    right: 30px;
+}
