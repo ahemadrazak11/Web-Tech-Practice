@@ -1,0 +1,64 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 20px;
+}
+
+h1{
+    font-size: 25px;
+    text-align: center;
+    color: brown;
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: rgb(17, 0, 255);
+}
+
+.blocks{
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+}
+
+#pixel{
+    width: 500px;
+    height: 100px;
+    background-color: yellow;
+}
+
+#centimeter{
+    width: 10cm;
+    height: 3cm;
+    color: white;
+    background-color: red;
+}
+
+#millimeter{
+    width: 100mm;
+    height: 30mm;
+    background-color: green;
+}
+
+#inch{
+    width: 10in;
+    height: 1in;
+    color: white;
+    background-color: navy;
+}
+
+#point{
+    width: 500pt;
+    height: 70pt;
+    background-color: gray;
+}
+
+
+#picas{
+    width: 10pc;
+    height: 5pc;
+    color: white;
+    background-color: blueviolet;
+}
