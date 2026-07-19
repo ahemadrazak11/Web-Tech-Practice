@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    padding: 20px;
+    background-image: url(../../assets/images/Victoriya.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#image_container{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 200px;
+    cursor: pointer;
+}
+
+#image_container:hover{
+    filter: blur(10px);
+    filter: brightness(50%);
+    filter: contrast(30%);
+    filter: opacity(50%);
+    filter: contrast(20%);
+}
+
+
+#card{
+    font-size: 1.5rem;
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+    width: 500px;
+    height: 250px;
+    position: absolute;
+    top: 200px;
+    left: 500px;
+    backdrop-filter: blur(10px);
+    border: 2px solid white;
+}
