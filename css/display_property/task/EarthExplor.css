@@ -42,7 +42,7 @@ body{
     height: 50vh;
     font-size: 20rem;
     color: #adff2f;
-    background-color: white;
+    background-color: #0a0a0a;
     border-radius: 50%;
     display: flex;
     flex-direction: row;
@@ -50,9 +50,42 @@ body{
     align-items: center;
 }
 
+#direction_container{
+    font-size: 24px;
+    font-weight: bold;
+    position: absolute;
+    z-index: 10;
+}
+
+#n{
+    position: absolute;
+    left: -371px;
+    top: -159px;
+}
+
+#e{
+    position: absolute;
+    left: -227px;
+    top: -15px;
+}
+
+#s{
+    
+    position: absolute;
+    left: -370px;
+    top: 130px;
+}
+
+#w{
+    position: absolute;
+    left: -519px;
+    top: -15px;
+
+}
 #explor{
     font-size: 12rem;
-     font-weight: bold;
+    font-weight: bold;
+    -webkit-text-stroke: 2px white;
 }
 
 
