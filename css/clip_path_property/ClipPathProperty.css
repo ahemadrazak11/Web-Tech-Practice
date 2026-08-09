@@ -53,6 +53,7 @@ body{
 }
 
 #top_arrow{
+    border-radius: 10px;
     clip-path: polygon(50% 0%, 100% 100%, 0% 100%);
 }
 

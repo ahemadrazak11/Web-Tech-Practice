@@ -30,9 +30,10 @@ window.console.log("this text is printed by window object");
 
 
 //4.innerHTML java script property
-document.getElementById("heading").innerHTML="<b style='color: red;'>Hi, this is JS inseted HTML code.</b>";
+document.getElementById("heading").innerHTML="<b style='color: red;background-color: lightgray;'>Hi, this is JS inseted HTML code.</b>";
 
 //5. innerText java script property.
 document.getElementById("block_one").innerText="<b style='color: red;'>this is inner text property of JS</b> (this property consider HTML tag as a text only.)";
 
 //6. innerContent JavaScript property.
+document.getElementById("block_two").textContent="this is textContent Property of JS.";
