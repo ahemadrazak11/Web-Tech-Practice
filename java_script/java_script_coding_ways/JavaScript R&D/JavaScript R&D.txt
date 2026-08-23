@@ -1,0 +1,1 @@
+1] HTML can have custome attribute if yes then how to select by CSS.
