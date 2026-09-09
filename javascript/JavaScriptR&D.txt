@@ -1,0 +1,10 @@
+===================
+src="./index.js"
+src="index.js"
+
+what are the differnce?
+===================
+
+Hoisting?
+
+============
