@@ -43,6 +43,35 @@ console.log(b);
 //  console.log(a);
 
 
- console.log(b);
- let b = 10;
- console.log(b);
+//  console.log(b);
+//  let b = 10;
+//  console.log(b);
+
+
+console.log("Before Initailization");
+console.log("var x = " + x);
+
+var x = 10;
+
+console.log("After Initailization");
+console.log("var x = " + x);
+
+
+
+// console.log("Before Initailization");
+// console.log("let y = " + y);
+
+// let y = 50;
+
+// console.log("After Initailization");
+// console.log("let y = " + y);
+
+
+
+console.log("Before Initailization");
+console.log("const z = " + z);
+
+const z = 50;
+
+console.log("After Initailization");
+console.log("const z = " + z);
