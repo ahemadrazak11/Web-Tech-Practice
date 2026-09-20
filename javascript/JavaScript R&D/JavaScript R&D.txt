@@ -1,1 +1,14 @@
-1] HTML can have custome attribute if yes then how to select by CSS.
+===================
+src="./index.js"
+src="index.js"
+
+what are the differnce?
+===================
+
+Hoisting?
+
+============
+
+1. HTML can have custome attribute if yes then how to select by CSS.
+
+=======================
