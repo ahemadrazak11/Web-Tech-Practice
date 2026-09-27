@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>JavaScript Array Practice</title>
+
+    <style>
+
+        /* ---------- Page ---------- */
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            padding: 40px;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f4f7fb;
+            color: #172b4d;
+        }
+
+
+        /* ---------- Heading ---------- */
+
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+            color: #12395b;
+            font-size: 32px;
+        }
+
+
+        /* ---------- Table Container ---------- */
+
+        .table-container {
+            max-width: 1200px;
+            margin: auto;
+            background-color: white;
+            border-radius: 10px;
+            overflow: hidden;
+
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+        }
+
+
+        /* ---------- Table ---------- */
+
+        .qtable {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+
+        /* ---------- Table Header ---------- */
+
+        .qtable thead {
+            background: linear-gradient(
+                135deg,
+                #12395b,
+                #1769aa
+            );
+
+            color: white;
+        }
+
+        .qtable th {
+            padding: 18px 20px;
+            text-align: left;
+            font-size: 16px;
+            letter-spacing: 0.5px;
+        }
+
+
+        /* ---------- Table Body ---------- */
+
+        .qtable td {
+            padding: 20px;
+            border-bottom: 1px solid #e1e7ef;
+            vertical-align: top;
+            line-height: 1.6;
+            font-size: 15px;
+        }
+
+
+        /* Question Number */
+
+        .question-number {
+            width: 100px;
+            font-weight: bold;
+            color: #1769aa;
+            white-space: nowrap;
+        }
+
+
+        /* ---------- Alternate Rows ---------- */
+
+        .qtable tbody tr:nth-child(odd) {
+            background-color: #f8fafc;
+        }
+
+        .qtable tbody tr:nth-child(even) {
+            background-color: #ffffff;
+        }
+
+
+        /* ---------- Hover Effect ---------- */
+
+        .qtable tbody tr {
+            transition: 0.2s ease;
+        }
+
+        .qtable tbody tr:hover {
+            background-color: #eaf4ff;
+        }
+
+
+        /* ---------- Last Row ---------- */
+
+        .qtable tbody tr:last-child td {
+            border-bottom: none;
+        }
+
+
+        /* ---------- Responsive ---------- */
+
+        @media (max-width: 700px) {
+
+            body {
+                padding: 20px;
+            }
+
+            h1 {
+                font-size: 25px;
+            }
+
+            .qtable th,
+            .qtable td {
+                padding: 14px;
+            }
+
+        }
+
+    </style>
+</head>
+
+
+<body>
+
+    <h1>JavaScript Array Practice</h1>
+
+    <div class="table-container">
+
+        <table class="qtable">
+
+            <thead>
+                <tr>
+                    <th>Question</th>
+                    <th>Problem Statement</th>
+                </tr>
+            </thead>
+
+            <tbody>
+
+                <tr>
+                    <td class="question-number">Q1</td>
+
+                    <td>
+                        Write a JavaScript program to get the first
+                        <b>n elements</b> of an array.
+                        [n can be any positive number].
+
+                        <br><br>
+
+                        <b>Example:</b>
+
+                        <br>
+
+                        Array: [7, 9, 0, -2]
+
+                        <br>
+
+                        n = 3
+
+                        <br>
+
+                        Output: [7, 9, 0]
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td class="question-number">Q2</td>
+
+                    <td>
+                        Write a JavaScript program to get the
+                        <b>last n elements</b> of an array.
+                        [n can be any positive number].
+
+                        <br><br>
+
+                        <b>Example:</b>
+
+                        <br>
+
+                        Array: [7, 9, 0, -2]
+
+                        <br>
+
+                        n = 3
+
+                        <br>
+
+                        Output: [9, 0, -2]
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td class="question-number">Q3</td>
+
+                    <td>
+                        Write a JavaScript program to check whether
+                        a string is <b>blank</b> or not.
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td class="question-number">Q4</td>
+
+                    <td>
+                        Write a JavaScript program to test whether the
+                        character at the given character index is
+                        <b>lower case</b>.
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td class="question-number">Q5</td>
+
+                    <td>
+                        Write a JavaScript program to strip
+                        <b>leading and trailing spaces</b>
+                        from a string.
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td class="question-number">Q6</td>
+
+                    <td>
+                        Write a JavaScript program to check if an
+                        <b>element exists in an array</b> or not.
+                    </td>
+                </tr>
+
+            </tbody>
+
+        </table>
+
+    </div>
+
+
+    <script src="Practice.js"></script>
+
+</body>
+
+</html>
