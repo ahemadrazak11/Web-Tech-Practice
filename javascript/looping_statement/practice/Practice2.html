@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Questions</title>
+</head>
+<body>
+    <h1>Practice Questions Using Loop.</h1>
+
+    <h2>Print numbers from 1–100.</h2>
+    <script>
+        for(let i = 0; i<=100; i++)
+        document.write(i + "  ");
+    </script>
+    <hr>
+    <h2>Print only even numbers from 1–100.</h2>
+    <script>
+        for(let i = 1; i<=100; i++)
+        if(i%2 == 0){
+            document.write(i + "  ");
+        }
+    </script>
+    <hr>
+    <h2>Find the sum of numbers from 1–100.</h2>
+    <script>
+        let sum = 0;
+        for(let i = 1; i<=100; i++){
+            sum+=i;
+        }
+        document.write("The Total Sum => ", sum);
+    </script>
+    <hr>
+    <h2>Reverse an array without using reverse().</h2>
+    <script>
+        let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+        let first = 0; // 0
+        let last = arr.length - 1; // 9
+        
+        document.write(arr + "<br />");
+        for(let i = 0; i<(arr.length + 1) / 2; i++){
+            if(first<last){
+                let temp = arr[first];
+                arr[first] = arr[last];
+                arr[last] = temp; 
+                first++;
+                last--;
+            }
+        }
+        document.write(arr);
+    </script>
+    <hr>
+    <h2>Count vowels in a string.</h2>
+    <script>
+        let str = "AEIOUaeiou";
+        let count = 0;
+
+        for(let s of str){
+        if(s == 'a' || s == 'A' || s == 'e' || s == 'E' || s == 'i' || s == 'I' || s == 'o' || s == 'O' || s == 'u' || s == 'U')
+        {
+            count++;
+        }
+    }
+    document.write(`Total Vowels in ${str} => ${count}`);
+
+    </script>
+    <hr>
+    <h2>Print this pattern</h2>
+    <pre>
+        *
+        **
+        ***
+        ****
+        *****
+    </pre>
+    <hr><hr>
+
+    <script>
+        for(let i = 0; i<=5; i++){
+            for(let j = 0; j<=i; j++){
+                document.write(" * ");
+            }
+            document.write("<br />")
+        }
+    </script>
+</body>
+</html>

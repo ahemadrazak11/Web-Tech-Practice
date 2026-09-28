@@ -105,3 +105,18 @@ console.log("The Factorial Of A Number => ", fact);
 Qs5. Find the largest number in an array with only positive numbers.
 */
 
+let numArray = [10, 20, 50, 30, 80, 60, 110, 70];
+
+let max = numArray[0];
+
+console.log("Number Array => ", numArray);
+
+
+for(let i = 0; i<=numArray.length; i++){
+
+    if(numArray[i] > max){
+        max = numArray[i];
+    }
+}
+
+console.log("The Larget Number => ", max);
