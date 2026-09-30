@@ -1,7 +1,24 @@
+//objecgt
+
 const student = {
     name: "Ahemad",
     age: 23,
-    address: null
+    address: "Pune"
 };
 
-console.log(student);
+
+// nested Object
+const studentList = {
+    student1 :{
+    name: "Ahemad",
+    age: 23,
+    address: "Pune"
+},
+
+student2:{
+    name: "Ahemad",
+    age: 23,
+    address: "Pune"
+}
+};
+

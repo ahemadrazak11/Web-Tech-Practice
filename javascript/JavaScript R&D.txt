@@ -12,3 +12,17 @@ Hoisting?
 1. HTML can have custome attribute if yes then how to select by CSS.
 
 =======================
+Scope in JavaScript
+
+let sum = 55;
+
+function getSum(sum){
+
+    var sum = "HiSum";
+    return sum;
+}
+
+console.log(getSum(sum));
+
+
+=============================================
