@@ -14,6 +14,7 @@ console.log(f+l, typeof f+l); // 225 : string concatination
 console.log(f-l, typeof f+l); // 20 : number
 console.log(f*l, typeof f+l); // 125 : number
 console.log(f/l, typeof f+l); // 5 : number
+console.log(f*"abcd", typeof f*"abcd");
 
 
 
@@ -40,6 +41,7 @@ console.log(Number("1312TA")); //NaN : number
 
 
 //2.1.2 parseInt(string) : number
+console.log("parseInt()");
 
 console.log(parseInt("TA1312"));
 console.log(parseInt("1312TA"));
@@ -50,6 +52,7 @@ console.log(parseInt(false));
 
 //2.1.3 parseFloat(string) : number
 
+console.log("parseFloat()");
 console.log(parseFloat("CGPA9.5"));
 console.log(parseFloat("9.5CGPA"));
 console.log(parseFloat(true));
