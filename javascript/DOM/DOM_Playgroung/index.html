@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript DOM Playground</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+
+    <main class="playground">
+        <header class="header">
+            <p class="eyebrow">JAVASCRIPT PRACTICE</p>
+            <h1>DOM Playground</h1>
+            <p class="subtitle">
+                Learn how JavaScript interacts with HTML elements.
+            </p>
+        </header>
+
+        <section class="preview card">
+            <span class="section-label">LIVE PREVIEW</span>
+
+            <h2 id="message">Hello, Ahemad!</h2>
+            <p id="description">
+                Use the buttons below to manipulate this page.
+            </p>
+
+            <div class="list-section">
+                <h3>My Learning Topics</h3>
+                <ol id="topicList">
+                    <li>
+                        <span>JavaScript</span>
+                        <button class="remove-btn" type="button">
+                            Remove
+                        </button>
+                    </li>
+                    <li>
+                        <span>DOM</span>
+                        <button class="remove-btn" type="button">
+                            Remove
+                        </button>
+                    </li>
+                </ol>
+                <p id="emptyMessage" hidden>No topics remaining.</p>
+            </div>
+        </section>
+
+        <section class="controls card">
+            <span class="section-label">DOM CONTROLS</span>
+
+            <div class="control-group">
+                <h3>1. Change content</h3>
+                <p>Practice selecting elements and updating text.</p>
+                <button id="changeTextBtn" type="button">
+                    Change Text
+                </button>
+            </div>
+
+            <div class="control-group">
+                <h3>2. Manipulate styles</h3>
+                <p>Practice using classList to toggle a CSS class.</p>
+                <button id="styleBtn" type="button">
+                    Apply Style
+                </button>
+            </div>
+
+            <div class="control-group">
+                <h3>3. Add elements</h3>
+                <p>Create a new list item and append it to the page.</p>
+                <div class="add-controls">
+                    <input
+                        id="topicInput"
+                        type="text"
+                        placeholder="Enter a topic..."
+                        aria-label="New learning topic"
+                        maxlength="60"
+                    >
+                    <button id="addBtn" type="button">Add Topic</button>
+                </div>
+            </div>
+
+            <div class="control-group">
+                <h3>4. Remove elements</h3>
+                <p>Remove individual items or clear the entire list.</p>
+                <button id="clearBtn" class="danger-btn" type="button">
+                    Clear All Topics
+                </button>
+            </div>
+
+            <button id="resetBtn" class="reset-btn" type="button">
+                Reset Playground
+            </button>
+        </section>
+
+        <footer>
+            Built for JavaScript DOM practice
+        </footer>
+    </main>
+
+</body>
+</html>

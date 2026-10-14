@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Task</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <main id="main_div">
+            <header id="header" class="flex">
+                <b>JAVASCRIPT PRACTICE</b>
+                <h1 id="main_heading">DOM Playground</h1>
+                <p>Learn how JavaScript interacts with HTML elements.</p>
+            </header>
+
+            <section id="preview" class="card">
+                <div id="preview_head" class="flex">
+                    <b>LIVE PREVIEW</b>
+                    <h2 id="heading">Hello, Ahemad!</h2>
+                    <p>Use the buttons below to manipulate this page.</p>
+                    <h3 id="topic_heading">My Learning Topics</h3>
+                </div>
+                <div id="topics">
+                    <ul id="topicList">
+                        <li><span>JavaScript</span> <button class="remove_btn" type="button">Remove</button></li>
+                        <li><span>DOM</span> <button class="remove_btn" type="button">Remove</button></li>
+                    </ul>
+                    <div id="emptyMessage" hidden>
+                        <p>No topics remaining.</p>
+                    </div>
+                </div>
+
+            </section>
+
+            <section id="opeartion" class="card">
+                <b>DOM CONTROLS</b>
+                <div class="control_grp">
+                    <h3>1. Change content</h3>
+                    <p>Practice selecting elements and updating text.</p>
+                    <button class="primary_btn" type="button" id="changeTextBtn">Change Text</button>
+                </div>
+                <div class="control_grp">
+                    <h3>2. Manipulate styles</h3>
+                    <p>Practice using classList to toggle a CSS class.</p>
+                    <button class="primary_btn" type="button" id="styleBtn">Apply Style</button>
+                </div>
+                <div class="control_grp">
+                    <h3>3. Add elements</h3>
+                    <p>Create a new list item and append it to the page.</p>
+                    <div class="add_topic">
+                        <input type="text" name="topic" id="topic" placeholder="Enter Topic...">
+                        <button class="primary_btn" type="button" id="addBtn">Add Topic</button>
+                    </div>
+                </div>
+                <div class="control_grp">
+                    <h3>4. Remove elements</h3>
+                    <p>Remove individual items or clear the entire list.</p>
+                    <button id="clear_btn" type="button">Clear All Topics</button>
+                </div>
+                <div class="reset">
+                    <button id="reset_btn" type="button">Reset Playground</button>
+                </div>
+            </section>
+        <footer>
+            <p>Built for JavaScript DOM practice</p>
+        </footer>
+    </main>
+</body>
+</html>
